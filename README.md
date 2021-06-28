@@ -1,5 +1,4 @@
-# Tron-FAQ
-Tron Blockchain FAQs
+# Tron Blockchain FAQs
 
 1. What will be the consumption token when users don't have enough bandwidth to make transfer transaction?
 > It will burn TRX to pay the fee,  one bandwidth = 140 SUN,   you can calculate based on this. 1TRX = 1000000SUN. You can check this doc for more tech detail https://developers.tron.network/docs/resource-model
