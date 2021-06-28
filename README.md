@@ -5,3 +5,6 @@
 
 2. Is there a config in tron full node which can allow only certain ip's or ip range to query http api?
 > This needs to be restricted in the nginx service.
+
+3. We are trying to set up a multisignature with 7 participants, but it isn't allowing us more than 5 users. The documentation says that the maximum is 8 active accesses.
+> 8 Active Accesses meaning that you can set up to 8 permission groups. In each group, max num of participants is 5 i.e. so the maximum number of participants in a multisignature is 5.
