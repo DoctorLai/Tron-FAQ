@@ -14,3 +14,6 @@
 import base58
 base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 ```
+
+5. How to get the Fee by Transaction Hash?
+> You can use the TronGrid API GetTransactionInfoById to Query the transaction fee, block height by transaction id see: https://developers.tron.network/reference#walletgettransactionbyid
