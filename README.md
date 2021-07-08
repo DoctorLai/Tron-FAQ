@@ -17,3 +17,7 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 5. How to get the Fee by Transaction Hash?
 > You can use the TronGrid API GetTransactionInfoById to Query the transaction fee, block height by transaction id see: https://developers.tron.network/reference#walletgettransactionbyid
+
+6. How to transfer trc20 token to smart contact?
+> See https://developers.tron.network/docs/trc20-contract-interaction 
+> Be careful on transfer TRC20 to a contract address. In most case, transfer TRC20 token to a contract means you will lose those tokens becase no one can withdraw it.
