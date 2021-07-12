@@ -21,3 +21,11 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 6. How to transfer trc20 token to smart contact?
 > See https://developers.tron.network/docs/trc20-contract-interaction 
 > Be careful on transfer TRC20 to a contract address. In most case, transfer TRC20 token to a contract means you will lose those tokens becase no one can withdraw it.
+
+7. Spam/unknown Tokens
+> Just receiving a token into your wallet does not have any harm to your wallet, but using that token on any platform is solely your responsibility, don't do anything with an unknown token.
+> Tron network is a decentralised system anyone in the world can create a token with any name and distribute it over tron network to any wallets, there is no permission is needed for incoming transfer, also tronlink is a decentralised wallet no permission is needed for incoming transfer, if someone sends this token to your wallet most probably it will visible.
+> Verified or legitimate token has a blue tick ✔️ mark.
+> You can hide the visibility of the token by using the "+" option on the right side of the tronlink home page.
+> Also, you can see more information for that token by clicking the information button on the top right corner of that token's transfer history page.
+> If by mistake you have tried to swap fake tokens on any scam website then please don't use that wallet again immediately transfer your wallet funds to a new wallet.
