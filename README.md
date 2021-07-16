@@ -29,3 +29,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > You can hide the visibility of the token by using the "+" option on the right side of the tronlink home page.
 > Also, you can see more information for that token by clicking the information button on the top right corner of that token's transfer history page.
 > If by mistake you have tried to swap fake tokens on any scam website then please don't use that wallet again immediately transfer your wallet funds to a new wallet.
+
+8. How do I retrieve transaction note from the get_tranaction() function?
+> Please refer to https://developers.tron.network/docs/make-transaction-locally and after you get the transaction by id, please parse the data field to get the note.
