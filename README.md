@@ -41,3 +41,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 11. Can I use  Ethereum private key to generate a Tron address?
 > Yes.
+
+12. How to figure out gas costs when deploying smart contracts on my tronbox setup? I can then use that account to query "http://127.0.0.1:9090/wallet/getcontract?value=xxx" and get JSON that describes the methods available in the contract, but I see not cost for the creation or running of the contract when I interact with it.
+> You need the transaction hash to query it and see how much it has used. Besides the more functions and internal transactions a contract has the more processing power it uses on the node hence the fee going up.
