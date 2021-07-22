@@ -32,3 +32,12 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 8. How do I retrieve transaction note from the get_tranaction() function?
 > Please refer to https://developers.tron.network/docs/make-transaction-locally and after you get the transaction by id, please parse the data field to get the note.
+
+9. If I want to become an SR(c), would I have to deploy a fullnode?
+> Yes, because if your node goes up the list, it must be able to create blocks and confirm transactions.
+
+10. I have created a token on your blockchain network but it's price is not yet determined. What should I do for the price to appear in my wallet?
+> It needs to be listed on PoloniDex or another exchange & tracked by CoinGecko. If you need the price to show, then exchange listing is needed, again if not on PoloniDEX, then the exchange you list it on must be tracked by CoinGecko and you must apply for your token to be tracked by CoinGecko.
+
+11. Can I use  Ethereum private key to generate a Tron address?
+> Yes.
