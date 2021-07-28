@@ -50,3 +50,9 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 14. What is the cost to deploy a new contract?
 > Deploy a new contract is not free, for a simple TRC20 Token contract, it will cost around 80 TRX to complete it.  it will cost more if your contract is more complex.
+
+15. I want to deploy a contract in tron blockchain. Can I use the tron energy for it instead of paying TRX?
+> Trx are burned only if you don't have enough energy or bandwidth.
+
+16. What is the justswap contract address on shasta?
+> Justswap does not have a testnet version.
