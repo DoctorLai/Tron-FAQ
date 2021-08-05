@@ -56,3 +56,9 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 16. What is the justswap contract address on shasta?
 > Justswap does not have a testnet version.
+
+17. Is there a way to accept a particular token as payment in a contract?  Ethereum has a ERC-1363 Payable Token - is there something comparable for TRON?
+> I would suggest you try on Tron testnet, it should be supported from TVM level.
+
+18. When a token is made Do users always have to pay a fee for the transfer? Is there a solution for transferring tokens free of charge?
+> You can freeze TRX to get ressources for free transfer.
