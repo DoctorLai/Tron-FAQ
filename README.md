@@ -45,7 +45,7 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 12. How to figure out gas costs when deploying smart contracts on my tronbox setup? I can then use that account to query "http://127.0.0.1:9090/wallet/getcontract?value=xxx" and get JSON that describes the methods available in the contract, but I see not cost for the creation or running of the contract when I interact with it.
 > You need the transaction hash to query it and see how much it has used. Besides the more functions and internal transactions a contract has the more processing power it uses on the node hence the fee going up.
 
-13. Can I use Tron from myShasta testnet to invest into something?
+13. Can I use Tron from my Shasta testnet to invest into something?
 > TRX on shasta can only work on shasta, mainly for Developers, no other value.
 
 14. What is the cost to deploy a new contract?
@@ -62,3 +62,19 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 18. When a token is made Do users always have to pay a fee for the transfer? Is there a solution for transferring tokens free of charge?
 > You can freeze TRX to get ressources for free transfer.
+
+19. How do we use TRON-PRO-API-KEY in the website?
+> when you send API make sure you include the key in the headers for example 
+```
+    headers: {
+        Accept: 'application/json', 
+        'Content-Type': 'application/json',
+        'TRON-PRO-API-KEY': AppKey,
+    },
+```
+
+20. How can i use api to create wallet address for my app users？
+> It is suggested that you generate address offline instead of using any API.
+
+21. Is it possible to get jst token on Shasta test net? I wanted to test the justlink vrf but I using shasta instead of nile?
+> users cannot join shasta, but you can join Nile and get JST token at: https://nileex.io/join/getJoinPage
