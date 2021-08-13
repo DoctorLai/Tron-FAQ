@@ -78,3 +78,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 21. Is it possible to get jst token on Shasta test net? I wanted to test the justlink vrf but I using shasta instead of nile?
 > users cannot join shasta, but you can join Nile and get JST token at: https://nileex.io/join/getJoinPage
+
+22. When i create an adress, next how i make it to online chain？
+> Activate that account, for example transfer 1TRX to that account
