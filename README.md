@@ -80,4 +80,9 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > users cannot join shasta, but you can join Nile and get JST token at: https://nileex.io/join/getJoinPage
 
 22. When i create an adress, next how i make it to online chain？
-> Activate that account, for example transfer 1TRX to that account
+> Activate that account, for example transfer 1 TRX to that account.
+
+23. Will it be any case, energy of an wallet can be negative value?
+> energy = obtain-consumed, and let's say now you have 200k obtianed by freezing from two different account, one 150k, one 50k, and you consumed 100k, but the one freezing 150k do a unfreez, and this time, the consumed is more than obtained, so an energy can be negative.
+> I would say it is normal if your energy is negative after unfreeze, and all your consumed energy will be recovered to 0 in 24 hours.
+
