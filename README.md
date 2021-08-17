@@ -86,3 +86,5 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > energy = obtain-consumed, and let's say now you have 200k obtianed by freezing from two different account, one 150k, one 50k, and you consumed 100k, but the one freezing 150k do a unfreez, and this time, the consumed is more than obtained, so an energy can be negative.
 > I would say it is normal if your energy is negative after unfreeze, and all your consumed energy will be recovered to 0 in 24 hours.
 
+24. Even you are not producing block, you still need to keep running the server and all the txn consume storage, right ?
+> Yes it consumes storage because you are keeping a copy of the blockchain, also if your node is voted up and activates as a top SR it has to be in sync or may be kicked back down or even voted out of the SRs.
