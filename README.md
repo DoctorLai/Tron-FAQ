@@ -88,3 +88,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 24. Even you are not producing block, you still need to keep running the server and all the txn consume storage, right ?
 > Yes it consumes storage because you are keeping a copy of the blockchain, also if your node is voted up and activates as a top SR it has to be in sync or may be kicked back down or even voted out of the SRs.
+
+25. Although TRON is burning on a daily basis, why is the supply increasing?
+> TRON burns and produces at the same time. If the production rate is high compared to burning, of course, the percentage of currencies will rise and vice versa.
