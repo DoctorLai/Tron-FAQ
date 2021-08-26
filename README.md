@@ -91,3 +91,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 25. Although TRON is burning on a daily basis, why is the supply increasing?
 > TRON burns and produces at the same time. If the production rate is high compared to burning, of course, the percentage of currencies will rise and vice versa.
+
+26. What is the formula for energy regeneration?
+> regeneration is 24 hours, it may be per second. I do not have the exact formula but is something like ((ENERGY_Assigned / 86400 seconds) * (timestamp - last_consume_timestamp) + ENERGY_left_calculation_formula_at_last_consume_timestamp[This is a separate formula]) and maybe a couple more things in it to calculate it precisely.
