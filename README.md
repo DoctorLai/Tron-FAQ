@@ -94,3 +94,8 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 26. What is the formula for energy regeneration?
 > regeneration is 24 hours, it may be per second. I do not have the exact formula but is something like ((ENERGY_Assigned / 86400 seconds) * (timestamp - last_consume_timestamp) + ENERGY_left_calculation_formula_at_last_consume_timestamp[This is a separate formula]) and maybe a couple more things in it to calculate it precisely.
+> So the formula is: total assigned energy/86400 (1 day in seconds) per second. Using the entire energy takes 24 hours to come back, if you have 10,000 energy, and use 5,000 energy, it will come back in 12 hours, but if you have 20,000 energy and use up 5,000 energy, it'll be back in 6 hours.
+
+27. Fullnode sync is very slow.
+> https://developers.tron.network/docs/faq#8-how-to-solve-the-problem-of-slow-node-block-synchronization-or-stop-synchronization
+
