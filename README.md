@@ -99,3 +99,5 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 27. Fullnode sync is very slow.
 > https://developers.tron.network/docs/faq#8-how-to-solve-the-problem-of-slow-node-block-synchronization-or-stop-synchronization
 
+28. How to make a Stablecoin on tron network?
+> Stablecoin can be issued on any public chain. This is the USDT coin on tron network. https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
