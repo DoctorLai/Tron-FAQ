@@ -118,3 +118,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > check this guide: https://developers.tron.network/docs/trc20-contract-interaction you can also see the example with curl or you can find more examples here https://developers.tron.network/reference#trigger-smart-contract
 > Using this https://developers.tron.network/docs/parameter-and-return-value-encoding-and-decoding to decode and uncode.
 
+34. How to fetch list of transaction list by wallet address?
+> https://developers.tron.network/reference#transaction-information-by-account-address
+
