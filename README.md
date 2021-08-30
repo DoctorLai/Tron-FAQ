@@ -101,3 +101,20 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 28. How to make a Stablecoin on tron network?
 > Stablecoin can be issued on any public chain. This is the USDT coin on tron network. https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
+
+29. How to Integrate TRC20 token in backend for Deposit and Withdraw Operations?
+> Check this guide: https://developers.tron.network/docs/trc20-contract-interaction
+
+30. How to Test JustSwap in TestNet?
+> Currently, there is no testnet for JustSwap, if you are familiar with smart contract realted development,  it is very easy to integrate with justswap if you follow the developer document on justswap homepage.
+
+31. How can I make withdrawal from my Tron Wallet?
+> try tronlink.  https://www.tronlink.org/
+
+32. I get "Out of Energy" error with 7656 Energy on Tronlink wallet.
+> That amount of energy is very low for a TRC20 contract operation. A simple transaction is about 20000 energy. You need to have some TRX to burn or stake.
+
+33. Are there any guides how to make TRC20 transfers via full node api?
+> check this guide: https://developers.tron.network/docs/trc20-contract-interaction you can also see the example with curl or you can find more examples here https://developers.tron.network/reference#trigger-smart-contract
+> Using this https://developers.tron.network/docs/parameter-and-return-value-encoding-and-decoding to decode and uncode.
+
