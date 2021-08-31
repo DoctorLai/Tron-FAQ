@@ -121,3 +121,5 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 34. How to fetch list of transaction list by wallet address?
 > https://developers.tron.network/reference#transaction-information-by-account-address
 
+35. How can i watch transactions of tron blockchain by socket?
+> You can do this by http api or gRPC api.
