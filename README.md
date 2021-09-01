@@ -123,3 +123,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 35. How can i watch transactions of tron blockchain by socket?
 > You can do this by http api or gRPC api.
+
+36. The Energy consumption of Nile and Shasta TestNet?
+> The Nile is 3 times as the mainnet and the Shasta is the same as the mainnet.
