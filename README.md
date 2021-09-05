@@ -126,3 +126,10 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 36. The Energy consumption of Nile and Shasta TestNet?
 > The Nile is 3 times as the mainnet and the Shasta is the same as the mainnet.
+
+37. When will be possible to count estimated energy before execute transaction?
+> https://developers.tron.network/docs/greatvoyage-430bacon#1-add-a-new-field-energy_used-in-transactionextention.
+
+38. Can I override unconfirmed transations in tron?
+No
+
