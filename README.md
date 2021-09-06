@@ -133,3 +133,8 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 38. Can I override unconfirmed transations in tron?
 No
 
+39. I have successfully launched my token on mainnet. How would i get it listed on tronlink?
+> It will sycn to tronlink around 2 hours after you finished token record on tronscan.
+
+40. why need to build own fullnode?
+> Trongrid has Ratio limit, If you have a large business volume and frequent API visits, it will exceed the maximum visits of Trongrid. At this time, the best choice is to build your own FullNode.
