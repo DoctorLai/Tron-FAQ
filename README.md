@@ -138,3 +138,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 40. why need to build own fullnode?
 > Trongrid has Ratio limit, If you have a large business volume and frequent API visits, it will exceed the maximum visits of Trongrid. At this time, the best choice is to build your own FullNode.
+
+41. How can i start private network on local in my system?
+> https://developers.tron.network/docs/tron-private-chain
