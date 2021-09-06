@@ -131,7 +131,7 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > https://developers.tron.network/docs/greatvoyage-430bacon#1-add-a-new-field-energy_used-in-transactionextention.
 
 38. Can I override unconfirmed transations in tron?
-No
+> No
 
 39. I have successfully launched my token on mainnet. How would i get it listed on tronlink?
 > It will sycn to tronlink around 2 hours after you finished token record on tronscan.
