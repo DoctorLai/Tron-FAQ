@@ -141,3 +141,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 41. How can i start private network on local in my system?
 > https://developers.tron.network/docs/tron-private-chain
+
+42. How to run a event server?
+> Try Tron’s Developer hub, you can find answer there, https://developers.tron.network/docs/event-plugin-deployment-mongodb
