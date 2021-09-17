@@ -144,3 +144,24 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 42. How to run a event server?
 > Try Tron’s Developer hub, you can find answer there, https://developers.tron.network/docs/event-plugin-deployment-mongodb
+
+43. Do we have to use a black hole to burn tokens in Tron network? If yes, what is the official black hole address of TRC20? What is the fee and on what basis is it calculated?
+> https://developers.tron.network/docs/faq#3-what-is-the-destruction-address-of-tron and https://developers.tron.network/docs/resource-model
+
+44. Startup will still be stuck after the upgrade (v4.3).
+> change the maxTimeRatio to 30.0 and restart the node
+
+45. how to define the fee_limit for TRC20 token?
+> You can set the feelimit when you create a contract transaction, refer to the documentation https://developers.tron.network/reference#trigger-smart-contract
+
+46. Let’s said I’m going to trigger smart contract for transfer. Does it mean it wil out of energy if it exceed the fee limit that I set? 
+> There are more detailed instructions here, you can read the following document https://developers.tron.network/docs/resource-model#2-how-to-set-fee-limit-caller-must-read
+
+47. the API URL of the tron test browser
+> check this.   https://shastapi.tronscan.org/api/vote/witness  https://nileapi.tronscan.org/api/vote/witness
+
+
+
+
+
+
