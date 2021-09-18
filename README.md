@@ -160,8 +160,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 47. the API URL of the tron test browser
 > check this.   https://shastapi.tronscan.org/api/vote/witness  https://nileapi.tronscan.org/api/vote/witness
 
-
-
-
-
+48. How much is the Fee to activate account on Main net?
+> 1 TRX
 
