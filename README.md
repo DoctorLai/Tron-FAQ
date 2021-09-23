@@ -182,3 +182,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 54. How can i valid one address is valid?
 > the account is a public key created from private key, you can verify it according to this: https://developers.tron.network/docs/account
+
+55. I already set up fullnode and solidity node, so my question is how can i listen to new transaction received by given address ?
+> Loop through the blocks or use event-plugin：https://developers.tron.network/docs/event-subscribe
