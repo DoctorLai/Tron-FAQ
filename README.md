@@ -163,3 +163,22 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 48. How much is the Fee to activate account on Main net?
 > 1 TRX
 
+49. If i want to grab the latest tron/usdt price how would i go about doing so? I cannot find anywhere the API offers 😕
+> You can use my API (Fair use policy)  
+> $ curl -s --data "TRON USDT" https://price.justyy.workers.dev/query
+> {"query":["TRON USDT"],"time":"2021-09-21T01:11:16.186Z","result":["1 tron = 0.08916068705152887 usdt"]}
+
+50. I created a private Tron chain. It comes with TronGrid. Do I have to pay for Trongrid if my calls exceed 100K daily?
+> no, you dont need to pay on your own private chain.
+
+51. Is there a way to get information about user's balance using only the address of wallet?
+> you can do this via tronweb or trongrid api
+
+52. Is there any IDE like Remix to develop contract?
+> You can try http://www.tronide.io/
+
+53. I am looking for someone to help me develop a TRC-20 stablecoin.
+> You can refer to the USDT on TRC-20 https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t/code
+
+54. How can i valid one address is valid?
+> the account is a public key created from private key, you can verify it according to this: https://developers.tron.network/docs/account
