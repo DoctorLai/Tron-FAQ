@@ -185,3 +185,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 55. I already set up fullnode and solidity node, so my question is how can i listen to new transaction received by given address ?
 > Loop through the blocks or use event-plugin：https://developers.tron.network/docs/event-subscribe
+
+56. Is there a way to pool energy or bandwith across multiple wallets? As in sharing the resources between multiple wallets.
+> No
