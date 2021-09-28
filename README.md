@@ -188,3 +188,16 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 
 56. Is there a way to pool energy or bandwith across multiple wallets? As in sharing the resources between multiple wallets.
 > No
+
+57. How to find out if a Tron Address is active or not?
+> It will return account detai via getaccount API if account is activated.
+
+58. What is the minimum sending amount of TRX to activate the address? 
+> Transfer >0.1 TRX to activate the address
+
+59. Where  we can find the token icon file? (manual search via google ... or there is some better way? )
+> All token icon can be found on tronscan.
+
+60. is there any email list subscription to be notified about important update on full nodes? ( when we need to update our full nodes If happening any critical update)
+> You will see Update notification in this channel if there is a new version. or you can subscribe the release from here: https://github.com/tronprotocol/java-tron/releases
+
