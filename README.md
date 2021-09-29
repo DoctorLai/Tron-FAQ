@@ -201,3 +201,7 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 60. is there any email list subscription to be notified about important update on full nodes? ( when we need to update our full nodes If happening any critical update)
 > You will see Update notification in this channel if there is a new version. or you can subscribe the release from here: https://github.com/tronprotocol/java-tron/releases
 
+61. Is it more profitable to freeze balance than pay fees in TRX?
+> Depends on your balance and daily transaction count. very much transactions, 100+. If you have more balance then freeze, your freezing resource gets filled every day. If you got 100k bandwidth, and used all of it, it will be filled to 100k the next day. You'll get about 1.5 bandwidth for each TRX stacked
+
+
