@@ -204,4 +204,6 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 61. Is it more profitable to freeze balance than pay fees in TRX?
 > Depends on your balance and daily transaction count. very much transactions, 100+. If you have more balance then freeze, your freezing resource gets filled every day. If you got 100k bandwidth, and used all of it, it will be filled to 100k the next day. You'll get about 1.5 bandwidth for each TRX stacked
 
+62. Does any one know an efficient method to listen for triggered smart contract event on the tron network. Tried using tronweb's watch method but it doesn't pick all transactions.
+> one option is to pull all events from trongrid API:  https://developers.tron.network/reference#events-by-transaction-id
 
