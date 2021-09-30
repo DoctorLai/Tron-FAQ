@@ -231,3 +231,23 @@ export const triggerSmartContract = async (req, res) => {
     }
 }
 ```
+
+64. I create a transaction for TRX in Tron network successfully. How can I send USDT or any other token in Tron with the Trongrid API?
+> https://developers.tron.network/docs/trc20-contract-interaction#transfer
+
+65. How to fix this "contract validate error : account does not exist"?
+> Probably the account is not activated, transfer >0.1 TRX to that account will activate the new accout.
+
+66. How to transfer TRC10/TRC20 token and I want to see the fee when transfering?
+> sendToken is for TRC10 transfer: https://developers.tron.network/reference#sendtoken 
+> TRC20 token transfer is done via triggersmartcontract: https://developers.tron.network/docs/trc20-contract-interaction#transfer
+> see the fee: https://developers.tron.network/docs/faq#5-how-to-calculate-the-bandwidth-and-energy-consumed-when-calling-the-contract 
+
+
+67. Is it possible the wallet account and account being approved both need activated?
+> the account must be activated if you want to start transction with that account.
+
+68. 
+
+
+
