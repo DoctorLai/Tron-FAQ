@@ -207,3 +207,27 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 62. Does any one know an efficient method to listen for triggered smart contract event on the tron network. Tried using tronweb's watch method but it doesn't pick all transactions.
 > one option is to pull all events from trongrid API:  https://developers.tron.network/reference#events-by-transaction-id
 
+63. Sample JS code to transfer TRC20 token?
+```javascript
+export const triggerSmartContract = async (req, res) => {
+
+    const trc20ContractAddress   = "TQxmdUhvJt59GJ7m9VWQe99gZ26HJikSug";//contract address
+    var address         = "TZ7C72E4AZPjEiswtWfb35PVhm28VmWnJC";
+
+    try {
+
+        let contract = await tronWeb.contract().at(trc20ContractAddress);
+        //Use send to execute a non-pure or modify smart contract method on a given smart contract that modify or change values on the blockchain.
+        // These methods consume resources(bandwidth and energy) to perform as the changes need to be broadcasted out to the network.
+        let result = await contract.transfer(address, 100).send({
+            feeLimit: 1000000
+        }).then(output => {console.log('- Output:', output, '\n')});
+        
+        console.log('result: ', result);
+
+    } catch(error) {
+
+        console.error("trigger smart contract error", error)
+    }
+}
+```
