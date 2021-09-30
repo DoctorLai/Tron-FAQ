@@ -243,11 +243,5 @@ export const triggerSmartContract = async (req, res) => {
 > TRC20 token transfer is done via triggersmartcontract: https://developers.tron.network/docs/trc20-contract-interaction#transfer
 > see the fee: https://developers.tron.network/docs/faq#5-how-to-calculate-the-bandwidth-and-energy-consumed-when-calling-the-contract 
 
-
 67. Is it possible the wallet account and account being approved both need activated?
 > the account must be activated if you want to start transction with that account.
-
-68. 
-
-
-
