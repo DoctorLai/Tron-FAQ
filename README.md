@@ -149,7 +149,7 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > https://developers.tron.network/docs/faq#3-what-is-the-destruction-address-of-tron and https://developers.tron.network/docs/resource-model
 
 44. Startup will still be stuck after the upgrade (v4.3).
-> change the maxTimeRatio to 30.0 and restart the node
+> change the maxTimeRatio to above 20.0 e.g. 30.0 and restart the node.
 
 45. how to define the fee_limit for TRC20 token?
 > You can set the feelimit when you create a contract transaction, refer to the documentation https://developers.tron.network/reference#trigger-smart-contract
@@ -245,3 +245,26 @@ export const triggerSmartContract = async (req, res) => {
 
 67. Is it possible the wallet account and account being approved both need activated?
 > the account must be activated if you want to start transction with that account.
+
+68. How to improve the sync speed or solve the sync stop problems of java-tron?
+> 1. a better machine such as 16 CORES + 32GB RAM, 500 GB SSD
+> 2. make sure single physical CPU has 16 cores or above: the following needs to be bigger or equal to 16.
+```
+$cat /proc/cpuinfo | grep -e "cpu cores"  -e "siblings" | sort | uniq
+cpu cores   : 8
+siblings    : 16
+```
+> 3. Change the max time toerlance to 20.0 or above:
+```
+vm = {
+  supportConstant = false
+  minTimeRatio = 0.0
+  maxTimeRatio = 20.0
+  saveInternalTx = false
+}
+```
+> 4. Improve the start-up by adding XX:+UseConcMarkSweepGC
+> $java -XX:+UseConcMarkSweepGC -jar Fullnode.jar -c config.conf
+
+
+
