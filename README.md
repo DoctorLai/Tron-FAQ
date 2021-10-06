@@ -268,3 +268,8 @@ vm = {
 
 69. Is it harmful or advantageous to use a public node instead of setting up my own node?
 > depends on your own requirement, public nodes are mainly for seed nodes, it cannot support very limited requests, too many requests may cause the node stop working. If you have a large number of requests, it is best to use your own Node, because your own Node only serves you and is more secure.
+
+70. How to make a TRC20 coin?
+> 1. first you have to write the smart contract for your coin.
+> 2. deploy your token's smart contract.
+> 3. from this link you can record your trx20 token: https://tronscan.org/#/tokens/create/Type
