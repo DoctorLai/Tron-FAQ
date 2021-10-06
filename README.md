@@ -266,5 +266,5 @@ vm = {
 > 4. Improve the start-up by adding XX:+UseConcMarkSweepGC
 > $java -XX:+UseConcMarkSweepGC -jar Fullnode.jar -c config.conf
 
-
-
+69. Is it harmful or advantageous to use a public node instead of setting up my own node?
+> depends on your own requirement, public nodes are mainly for seed nodes, it cannot support very limited requests, too many requests may cause the node stop working. If you have a large number of requests, it is best to use your own Node, because your own Node only serves you and is more secure.
