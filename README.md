@@ -273,3 +273,6 @@ vm = {
 > 1. first you have to write the smart contract for your coin.
 > 2. deploy your token's smart contract.
 > 3. from this link you can record your trx20 token: https://tronscan.org/#/tokens/create/Type
+
+71. I got this number from api. amount_str = "2535672" how can i understand how much is this? how can i convert it to exact amount?🤔
+> 2.5 TRX
