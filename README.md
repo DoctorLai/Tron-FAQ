@@ -167,6 +167,10 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > You can use my API (Fair use policy)  
 > $ curl -s --data "TRON USDT" https://price.justyy.workers.dev/query
 > {"query":["TRON USDT"],"time":"2021-09-21T01:11:16.186Z","result":["1 tron = 0.08916068705152887 usdt"]}
+> You can also try the following:
+> 1. https://winklink.org/
+> 2. https://coinmarketcap.com/
+> 3. https://www.coingecko.com/en
 
 50. I created a private Tron chain. It comes with TronGrid. Do I have to pay for Trongrid if my calls exceed 100K daily?
 > no, you dont need to pay on your own private chain.
