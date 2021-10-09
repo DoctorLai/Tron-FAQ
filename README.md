@@ -280,3 +280,6 @@ vm = {
 
 71. I got this number from api. amount_str = "2535672" how can i understand how much is this? how can i convert it to exact amount?🤔
 > 2.5 TRX
+
+72. What are internal transactions?
+> please refer to this doc: https://developers.tron.network/docs/vm-introduction#internal-transactions
