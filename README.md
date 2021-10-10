@@ -197,7 +197,8 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > It will return account detai via getaccount API if account is activated.
 
 58. What is the minimum sending amount of TRX to activate the address? 
-> Transfer >0.1 TRX to activate the address
+> Transfer >0.1 TRX to activate the address.
+> At least 1 TRX must be burned to activate the account. If there is not enough frozen bandwidth, an additional 0.1 TRX will be burned. In this case, it will cost 1.1 TRX to complete the creation of a new account; if there is enough frozen bandwidth, 1 TRX must be burned to complete creating the new account.
 
 59. Where  we can find the token icon file? (manual search via google ... or there is some better way? )
 > All token icon can be found on tronscan.
@@ -241,6 +242,7 @@ export const triggerSmartContract = async (req, res) => {
 
 65. How to fix this "contract validate error : account does not exist"?
 > Probably the account is not activated, transfer >0.1 TRX to that account will activate the new accout.
+> At least 1 TRX must be burned to activate the account. If there is not enough frozen bandwidth, an additional 0.1 TRX will be burned. In this case, it will cost 1.1 TRX to complete the creation of a new account; if there is enough frozen bandwidth, 1 TRX must be burned to complete creating the new account.
 
 66. How to transfer TRC10/TRC20 token and I want to see the fee when transfering?
 > - sendToken is for TRC10 transfer: https://developers.tron.network/reference#sendtoken
