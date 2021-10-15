@@ -285,3 +285,6 @@ vm = {
 
 72. What are internal transactions?
 > please refer to this doc: https://developers.tron.network/docs/vm-introduction#internal-transactions
+
+73. Can I generate TRC20 address in Mainnet? I need generate TRC20 adrress while become a member for all user.
+> You can use local nodes to generate addresses or generate addresses offline，pls check this document https://github.com/tronprotocol/java-tron/blob/develop/framework/src/main/java/org/tron/core/services/http/GenerateAddressServlet.java#L23
