@@ -288,3 +288,15 @@ vm = {
 
 73. Can I generate TRC20 address in Mainnet? I need generate TRC20 adrress while become a member for all user.
 > You can use local nodes to generate addresses or generate addresses offline，pls check this document https://github.com/tronprotocol/java-tron/blob/develop/framework/src/main/java/org/tron/core/services/http/GenerateAddressServlet.java#L23
+
+74. Is there a method to get the current chain id on TronWeb instance?
+> https://developers.tron.network/reference#eth_chainid
+
+75. Can anyone help me learn to add liquidity to my TRC 20 token?
+> https://justswap.zendesk.com/hc/en-us/articles/360047260732-How-to-add-liquidity-
+
+76. We are developing an exchange software that use TronGrid to manage transactions, Is this the best way? Or run the Full node?
+> depends on the request volume, if the trongrid free volume cannot meet your requirement , you need to set up your own node.
+
+77. How to get "REST API endpoint providing circulating supply value" for certain token using http? Token: https://tronscan.org/#/token20/TThrzAzRj2Pw4CQjqo1dk2zGyifPhuNHRu/ I need to get something like this: http://explorer.litecoin.net/chain/Litecoin/q/totalbc (only pure number "9,964,245,481.605456077196663259" using http)
+> You can use this: https://apilist.tronscan.org/api/token_trc20?contract=TThrzAzRj2Pw4CQjqo1dk2zGyifPhuNHRu&showAll=1 This is closest you’ll get probably.
