@@ -300,3 +300,8 @@ vm = {
 
 77. How to get "REST API endpoint providing circulating supply value" for certain token using http? Token: https://tronscan.org/#/token20/TThrzAzRj2Pw4CQjqo1dk2zGyifPhuNHRu/ I need to get something like this: http://explorer.litecoin.net/chain/Litecoin/q/totalbc (only pure number "9,964,245,481.605456077196663259" using http)
 > You can use this: https://apilist.tronscan.org/api/token_trc20?contract=TThrzAzRj2Pw4CQjqo1dk2zGyifPhuNHRu&showAll=1 This is closest you’ll get probably.
+
+78. How much energy can I get by staking 1000 TRX?
+> With 1000 TRX, you can get estimated gain 1000 TRON Power and 25970.664 Energy. You can see this at tronscan.io when you staking the TRX.
+![image](https://user-images.githubusercontent.com/1764434/138568650-4164a06c-bb39-43f6-84b0-51604de1f920.png)
+
