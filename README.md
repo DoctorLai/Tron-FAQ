@@ -303,5 +303,6 @@ vm = {
 
 78. How much energy can I get by staking 1000 TRX?
 > With 1000 TRX, you can get estimated gain 1000 TRON Power and 25970.664 Energy. You can see this at tronscan.io when you staking the TRX.
-![image](https://user-images.githubusercontent.com/1764434/138568650-4164a06c-bb39-43f6-84b0-51604de1f920.png)
+> 
+> ![image](https://user-images.githubusercontent.com/1764434/138568650-4164a06c-bb39-43f6-84b0-51604de1f920.png)
 
