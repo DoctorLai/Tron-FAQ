@@ -306,3 +306,8 @@ vm = {
 > 
 > ![image](https://user-images.githubusercontent.com/1764434/138568650-4164a06c-bb39-43f6-84b0-51604de1f920.png)
 
+79. Is there an API to get the unit price of energy?
+> https://developers.tron.network/reference#getchainparameters-1 you can get the "getEnergyFee" from this api.
+
+80. Where can i find documentation for setting up event server in vps? Right now, i am trying to "deploy tron event subscription plugin" but i am not sure if i am doing something wrong or documentation is broken. I need this to fetch user's NFT balance and some other events. 
+> doc to deploy event plugin : https://developers.tron.network/docs/event-subscribe
