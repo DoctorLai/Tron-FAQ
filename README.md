@@ -1,7 +1,7 @@
 # Tron Blockchain FAQs
 
 1. What will be the consumption token when users don't have enough bandwidth to make transfer transaction?
-> It will burn TRX to pay the fee,  one bandwidth = 140 SUN,   you can calculate based on this. 1TRX = 1000000SUN. You can check this doc for more tech detail https://developers.tron.network/docs/resource-model
+> It will burn TRX to pay the fee,  one bandwidth = 420 SUN (previously was 140 SUN before [Proposal 51](https://tronscan.org/#/proposal/51)),   you can calculate based on this. 1TRX = 1000000SUN. You can check this doc for more tech detail https://developers.tron.network/docs/resource-model
 
 2. Is there a config in tron full node which can allow only certain ip's or ip range to query http api?
 > This needs to be restricted in the nginx service.
@@ -315,3 +315,5 @@ vm = {
 81. I cannot get any information of a tron wallet on tronscan.org or using trongrid API
 > only activated account can return data. non-activated account will return empty. Transfer > 0.1 TRX to that account will activate that account.
 
+82. Getting 503 Errors: Failed to load resource: the server responded with a status of 503 (). This happen 100% of the times on the main net, on Nile everything works as expected.
+> IP or API-KEY access exceeds frequency limit, max 15 times/s
