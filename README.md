@@ -317,3 +317,7 @@ vm = {
 
 82. Getting 503 Errors: Failed to load resource: the server responded with a status of 503 (). This happen 100% of the times on the main net, on Nile everything works as expected.
 > IP or API-KEY access exceeds frequency limit, max 15 times/s
+
+83. Is possible to send  energy to address in tron network?
+> You cannot send energy to other address, however you can set the receive address when you freezing TRX for energy.
+> 
