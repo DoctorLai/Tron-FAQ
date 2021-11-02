@@ -311,3 +311,7 @@ vm = {
 
 80. Where can i find documentation for setting up event server in vps? Right now, i am trying to "deploy tron event subscription plugin" but i am not sure if i am doing something wrong or documentation is broken. I need this to fetch user's NFT balance and some other events. 
 > doc to deploy event plugin : https://developers.tron.network/docs/event-subscribe
+
+81. I cannot get any information of a tron wallet on tronscan.org or using trongrid API
+> only activated account can return data. non-activated account will return empty. Transfer > 0.1 TRX to that account will activate that account.
+
