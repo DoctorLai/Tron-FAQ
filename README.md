@@ -320,4 +320,16 @@ vm = {
 
 83. Is possible to send  energy to address in tron network?
 > You cannot send energy to other address, however you can set the receive address when you freezing TRX for energy.
-> 
+
+84. Energy unit price doubles?
+> https://tronscan.org/#/proposal/71
+
+85. How can I get a api of Energy By Burning TRX?
+> https://developers.tron.network/docs/greatvoyage-430bacon#1-add-a-new-field-energy_used-in-transactionextention
+
+86. How can we forecast  how much SUN  = 1 Energy?
+> https://api.trongrid.io/wallet/getaccountresource?address=TEi9FxmwRAGncvMLEdgKpFsQrGBgAZywC7&visible=true  you can see the total energy and total freezing TRX for energy , Based on this, you can roughly estimate how much energy the new freezing TRX can obtain: 
+```
+TotalEnergyLimit /(totalEnergyWeight + newFreezeTRX) * newFreezeTRX. 
+Burn TRX = Energy * Energy Unit price / 10^6
+```
