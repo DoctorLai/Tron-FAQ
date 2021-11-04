@@ -333,3 +333,7 @@ vm = {
 TotalEnergyLimit /(totalEnergyWeight + newFreezeTRX) * newFreezeTRX. 
 Burn TRX = Energy * Energy Unit price / 10^6
 ```
+
+87. TRX and SUN relationship?
+> 1 TRX = 1000000 sun, e.g. 280 sun means 0.00028 TRX.
+
