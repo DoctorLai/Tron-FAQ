@@ -342,3 +342,6 @@ Burn TRX = Energy * Energy Unit price / 10^6
 ```
 "".join(list(map(chr, list(bytes.fromhex(message)))))
 ```
+> It is also at tronide.io
+![image](https://user-images.githubusercontent.com/1764434/140302028-ed2b4dda-cb8c-4425-888a-6ceb9be5ff66.png)
+
