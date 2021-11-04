@@ -337,3 +337,8 @@ Burn TRX = Energy * Energy Unit price / 10^6
 87. TRX and SUN relationship?
 > 1 TRX = 1000000 sun, e.g. 280 sun means 0.00028 TRX.
 
+88. I got  this error {"result":{"code":"OTHER_ERROR","message":"636c617373206f72672e74726f6e2e636f72652e73657276696365732e687474702e4a736f6e466f726d6174245061727365457863657074696f6e203a20343a32363a20494e56414c49442068657820537472696e67"}} - How can I decode the message?
+> It is hex, you can do this:
+```
+"".join(list(map(chr, list(bytes.fromhex(message)))))
+```
