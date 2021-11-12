@@ -364,3 +364,6 @@ pip3 install tronapi
 - Java: https://cn.developers.tron.network/docs/%E6%9C%AC%E5%9C%B0%E6%9E%84%E5%BB%BA%E4%BA%A4%E6%98%93
 - Python: https://github.com/andelf/tronpy/blob/8beacd905ecd8cb151498748e2d446004c0b53ff/tronpy/tron.py#L130
 - Java-script: https://github.com/tronprotocol/tronweb/blob/34cb9c5ac0f5167b0660e663583d973949868e04/src/lib/trx.js#L650
+
+90. How do I calculate contract call bandwidth and energy values? Are there any relevant code samples?
+> https://developers.tron.network/docs/faq#5-how-to-calculate-the-bandwidth-and-energy-consumed-when-calling-the-contract
