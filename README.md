@@ -356,11 +356,11 @@ pip3 install tronapi
 
 89. How to generate address offline?
 > Some Demo code of Generate address offline(means generate address locally): 
-> java： https://github.com/tronprotocol/java-tron/blob/develop/framework/src/main/java/org/tron/core/services/http/GenerateAddressServlet.java#L23
-> Python: https://github.com/andelf/tronpy/blob/8beacd905ecd8cb151498748e2d446004c0b53ff/tronpy/tron.py#L458
-> Java-script: https://github.com/tronprotocol/tronweb/blob/34cb9c5ac0f5167b0660e663583d973949868e04/src/index.js#L393
-> C #  https://github.com/farukterzioglu/TronSharp/blob/master/TronSharp.Tests/Singature/SignWithPrivateKey.cs
+- java： https://github.com/tronprotocol/java-tron/blob/develop/framework/src/main/java/org/tron/core/services/http/GenerateAddressServlet.java#L23
+- Python: https://github.com/andelf/tronpy/blob/8beacd905ecd8cb151498748e2d446004c0b53ff/tronpy/tron.py#L458
+- Java-script: https://github.com/tronprotocol/tronweb/blob/34cb9c5ac0f5167b0660e663583d973949868e04/src/index.js#L393
+- C sharp: https://github.com/farukterzioglu/TronSharp/blob/master/TronSharp.Tests/Singature/SignWithPrivateKey.cs
 > Offline sign: 
-> Java: https://cn.developers.tron.network/docs/%E6%9C%AC%E5%9C%B0%E6%9E%84%E5%BB%BA%E4%BA%A4%E6%98%93
-> Python: https://github.com/andelf/tronpy/blob/8beacd905ecd8cb151498748e2d446004c0b53ff/tronpy/tron.py#L130
-> Java-script: https://github.com/tronprotocol/tronweb/blob/34cb9c5ac0f5167b0660e663583d973949868e04/src/lib/trx.js#L650
+- Java: https://cn.developers.tron.network/docs/%E6%9C%AC%E5%9C%B0%E6%9E%84%E5%BB%BA%E4%BA%A4%E6%98%93
+- Python: https://github.com/andelf/tronpy/blob/8beacd905ecd8cb151498748e2d446004c0b53ff/tronpy/tron.py#L130
+- Java-script: https://github.com/tronprotocol/tronweb/blob/34cb9c5ac0f5167b0660e663583d973949868e04/src/lib/trx.js#L650
