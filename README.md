@@ -367,3 +367,23 @@ pip3 install tronapi
 
 90. How do I calculate contract call bandwidth and energy values? Are there any relevant code samples?
 > https://developers.tron.network/docs/faq#5-how-to-calculate-the-bandwidth-and-energy-consumed-when-calling-the-contract
+
+91. How can I check balance of USDT trc20 token?
+```js
+const trc20ContractAddress = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"； //mainnet USDT contract
+let contract = await tronWeb.contract().at(trc20ContractAddress);
+
+//contract.[eventname].watch(callback) enventname is the name of the event of the contract
+await contract && contract.Transfer().watch((err, event) => {
+  if(err)
+    return console.error('Error with "Message" event:', err);
+ 
+  console.group('New event received');
+  console.log('- Contract Address:', event.contract);
+  console.log('- Event Name:', event.name);
+  console.log('- Transaction:', event.transaction);
+  console.log('- Block number:', event.block);
+  console.log('- Result:', event.result, '\n');
+  console.groupEnd();
+});
+```
