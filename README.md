@@ -1,5 +1,7 @@
 # Tron Blockchain FAQs
 
+Tron is based on BIP44  // m/44'/195'/0'/0/0 - You can refer to https://github.com/TronLink/Tronlink-core-android/tree/master/app/src/main/java/com/tronlink/core/common/common/bip39
+
 1. What will be the consumption token when users don't have enough bandwidth to make transfer transaction?
 > It will burn TRX to pay the fee,  one bandwidth = 420 SUN (previously was 140 SUN before [Proposal 51](https://tronscan.org/#/proposal/51)),   you can calculate based on this. 1TRX = 1000000SUN. You can check this doc for more tech detail https://developers.tron.network/docs/resource-model
 
