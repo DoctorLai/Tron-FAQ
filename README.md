@@ -389,3 +389,11 @@ await contract && contract.Transfer().watch((err, event) => {
   console.groupEnd();
 });
 ```
+
+92. How can ı create seed phrase from keystore?
+> Tron is based on BIP44, // m/44'/195'/0'/0/0
+
+93. What is an offline mode? And can I create a account with PHP?
+> offline mode  ≈  create it via SDK. We can create address with library instead of communicating with the node.
+
+
