@@ -404,3 +404,6 @@ await contract && contract.Transfer().watch((err, event) => {
 value: "\n\025A\210$S\221\364\304\224lU7\026\344\207)\377\304\3132\375\313\022\025A\246\024\370\003\266\375x\t\206\244,x\354\234\177w\346\336\321<\"D\251\005\234\273\000\000\000\000\000\000\000\000\000\000\000\000\204i\336\236,y\231(^\234I\004\241\300\210\220\273\232\334b\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\017B@"
 ```
 > Check: https://github.com/tronprotocol/wallet-cli/blob/f8c542f1c0fa45e882640ffadf988118cea7cd7a/src/main/java/org/tron/common/utils/Utils.java#L350 
+
+96. Validate signature error: xxxx is signed by xxxx but it is not contained of permission
+> You are using wrong private key. The private key must the priavate key of the owner_address.
