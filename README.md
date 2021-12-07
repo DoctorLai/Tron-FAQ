@@ -396,4 +396,11 @@ await contract && contract.Transfer().watch((err, event) => {
 93. What is an offline mode? And can I create a account with PHP?
 > offline mode  ≈  create it via SDK. We can create address with library instead of communicating with the node.
 
+94. Does metamask support TRON?
+> No - use tronlink instead.
 
+95. Does any one know about ByteString convert to readable string in trident-java get transaction by id, and the return value such like below:
+```
+value: "\n\025A\210$S\221\364\304\224lU7\026\344\207)\377\304\3132\375\313\022\025A\246\024\370\003\266\375x\t\206\244,x\354\234\177w\346\336\321<\"D\251\005\234\273\000\000\000\000\000\000\000\000\000\000\000\000\204i\336\236,y\231(^\234I\004\241\300\210\220\273\232\334b\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\017B@"
+```
+> Check: https://github.com/tronprotocol/wallet-cli/blob/f8c542f1c0fa45e882640ffadf988118cea7cd7a/src/main/java/org/tron/common/utils/Utils.java#L350 
