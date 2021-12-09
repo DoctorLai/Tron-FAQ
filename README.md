@@ -407,3 +407,6 @@ value: "\n\025A\210$S\221\364\304\224lU7\026\344\207)\377\304\3132\375\313\022\0
 
 96. Validate signature error: xxxx is signed by xxxx but it is not contained of permission
 > You are using wrong private key. The private key must the priavate key of the owner_address.
+
+97. Does tronweb have the function of identifying and observing the wallet?
+> This feature is not currently available on tronweb.
