@@ -410,3 +410,15 @@ value: "\n\025A\210$S\221\364\304\224lU7\026\344\207)\377\304\3132\375\313\022\0
 
 97. Does tronweb have the function of identifying and observing the wallet?
 > This feature is not currently available on tronweb.
+
+98. Converting Hex to ASCII:
+```bash
+curl -s -X POST --data "524556455254206f70636f6465206578656375746564" "https://str.justyy.workers.dev/hex"
+```
+or
+```bash
+echo "524556455254206f70636f6465206578656375746564" | xxd -ps -r
+```
+
+99. Decimals of TRX
+6
