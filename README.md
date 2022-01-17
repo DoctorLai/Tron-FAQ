@@ -422,3 +422,9 @@ echo "524556455254206f70636f6465206578656375746564" | xxd -ps -r
 
 99. Decimals of TRX
 6
+
+100. How to get address using trident-java?
+```java
+KeyPair keyPair = new KeyPair("your private key");
+keyPair.toBase58CheckAddress();
+```
