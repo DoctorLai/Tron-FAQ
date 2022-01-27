@@ -431,3 +431,6 @@ keyPair.toBase58CheckAddress();
 
 101. How to Transfer TRC-20 using Python?
 > https://github.com/andelf/tronpy
+
+102. How can I get Free Shasta?
+> https://twitter.com/TronTest2
