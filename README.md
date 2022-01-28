@@ -434,3 +434,6 @@ keyPair.toBase58CheckAddress();
 
 102. How can I get Free Shasta?
 > https://twitter.com/TronTest2
+
+103. when running a litenode that was started from a database snapshot, is there a way to compress the current database when it gets to big for the litenode to store?
+No
