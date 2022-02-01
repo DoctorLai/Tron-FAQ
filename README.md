@@ -437,3 +437,6 @@ keyPair.toBase58CheckAddress();
 
 103. when running a litenode that was started from a database snapshot, is there a way to compress the current database when it gets to big for the litenode to store?
 No
+
+104. If i want to listen trc20 transaction for certain address, should i develop a full node?
+https://developers.tron.network/v3.7/docs/tronweb-trx-functions  Get all transaction detail by block with `tronWeb.trx.getBlock(12345);` thus no need for a full node.
