@@ -421,7 +421,7 @@ echo "524556455254206f70636f6465206578656375746564" | xxd -ps -r
 ```
 
 99. Decimals of TRX
-6
+> 6
 
 100. How to get address using trident-java?
 ```java
@@ -436,7 +436,13 @@ keyPair.toBase58CheckAddress();
 > https://twitter.com/TronTest2
 
 103. when running a litenode that was started from a database snapshot, is there a way to compress the current database when it gets to big for the litenode to store?
-No
+> No
 
 104. If i want to listen trc20 transaction for certain address, should i develop a full node?
-https://developers.tron.network/v3.7/docs/tronweb-trx-functions  Get all transaction detail by block with `tronWeb.trx.getBlock(12345);` thus no need for a full node.
+> https://developers.tron.network/v3.7/docs/tronweb-trx-functions  
+> Get all transaction detail by block with `tronWeb.trx.getBlock(12345);` thus no need for a full node.
+
+105. How should I monitor real-time transfer events on the chain?
+> two options: 
+- one is using event plugin:   https://developers.tron.network/docs/event-subscribe
+- one is scanning the block: please refer to the doc: https://developers.tron.network/docs/how-to-determine-address-recharge
