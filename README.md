@@ -130,7 +130,8 @@ base58.b58decode_check("TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S").hex()
 > The Nile is 3 times as the mainnet and the Shasta is the same as the mainnet.
 
 37. When will be possible to count estimated energy before execute transaction?
-> https://developers.tron.network/docs/greatvoyage-430bacon#1-add-a-new-field-energy_used-in-transactionextention.
+- https://developers.tron.network/docs/greatvoyage-430bacon#1-add-a-new-field-energy_used-in-transactionextention.
+- https://developers.tron.network/docs/faq#5-how-to-calculate-the-bandwidth-and-energy-consumed-when-calling-the-contract
 
 38. Can I override unconfirmed transations in tron?
 > No
