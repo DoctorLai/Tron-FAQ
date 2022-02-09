@@ -447,3 +447,7 @@ keyPair.toBase58CheckAddress();
 > two options: 
 - one is using event plugin:   https://developers.tron.network/docs/event-subscribe
 - one is scanning the block: please refer to the doc: https://developers.tron.network/docs/how-to-determine-address-recharge
+
+106. owner_address Why is this parameter mandatory? We can activate the newly created account later.
+> activate account has cost, you have the specify the owner account to pay the cost.
+
