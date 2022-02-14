@@ -451,3 +451,7 @@ keyPair.toBase58CheckAddress();
 106. owner_address Why is this parameter mandatory? We can activate the newly created account later.
 > activate account has cost, you have the specify the owner account to pay the cost.
 
+107. how to get user's authority so that can check his balance with wallet address?
+> you don't need user authority to check balance. Just call the BalanceOf(address) funtion of the token contract, or use the Tronlink api for TRX balance
+
+
