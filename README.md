@@ -454,4 +454,8 @@ keyPair.toBase58CheckAddress();
 107. how to get user's authority so that can check his balance with wallet address?
 > you don't need user authority to check balance. Just call the BalanceOf(address) funtion of the token contract, or use the Tronlink api for TRX balance
 
+108. how to check confirmation of the transaction?
+> https://developers.tron.network/docs/transaction-11#transaction-confirmation
+
+
 
