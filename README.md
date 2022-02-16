@@ -460,3 +460,6 @@ keyPair.toBase58CheckAddress();
 109. How much fee for issuing a TRC10 token?
 > https://developers.tron.network/docs/trc10
 
+110. Is there a way to predict block hash values?
+> No way
+
