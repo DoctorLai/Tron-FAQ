@@ -463,3 +463,5 @@ keyPair.toBase58CheckAddress();
 110. Is there a way to predict block hash values?
 > No way
 
+111. I have a tron address but lost the private key, is there anyway to regain (recover) this?
+> No
