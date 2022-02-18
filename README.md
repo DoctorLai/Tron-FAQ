@@ -465,3 +465,6 @@ keyPair.toBase58CheckAddress();
 
 111. I have a tron address but lost the private key, is there anyway to regain (recover) this?
 > No
+
+112. Does TRON have any documentation that encapsulates the API? Interfaces can be called directly, like API
+> https://developers.tron.network/reference/select-network
