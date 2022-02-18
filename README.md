@@ -468,3 +468,8 @@ keyPair.toBase58CheckAddress();
 
 112. Does TRON have any documentation that encapsulates the API? Interfaces can be called directly, like API
 > https://developers.tron.network/reference/select-network
+
+113. How to listen to wallet address deposit?
+You can use:
+- event plugin： https://developers.tron.network/docs/event-subscribe 
+- scanning blocks： https://developers.tron.network/docs/faq#14how-to-judge-the-recharge-and-withdraw-funds-by-scanning-the-block
