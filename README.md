@@ -479,3 +479,6 @@ You can use:
 
 115. Can i pay fees in tron and not freeze my tron?
 > Yes
+
+116. I want to create a raw transaction (without signing it) and get its hash in hex format. The official TRON API normally returns a JSON for creating transactions. Does anybody here know how to do this?
+> https://developers.tron.network/docs/make-transaction-locally.
