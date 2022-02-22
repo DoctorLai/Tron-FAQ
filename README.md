@@ -476,3 +476,6 @@ You can use:
 
 114. How to transfer TRX to another account using Javascript (tronweb)?
 > https://developers.tron.network/docs/trx-transfer
+
+115. Can i pay fees in tron and not freeze my tron?
+> Yes
