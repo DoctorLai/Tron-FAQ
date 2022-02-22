@@ -473,3 +473,6 @@ keyPair.toBase58CheckAddress();
 You can use:
 - event plugin： https://developers.tron.network/docs/event-subscribe 
 - scanning blocks： https://developers.tron.network/docs/faq#14how-to-judge-the-recharge-and-withdraw-funds-by-scanning-the-block
+
+114. How to transfer TRX to another account using Javascript (tronweb)?
+> https://developers.tron.network/docs/trx-transfer
