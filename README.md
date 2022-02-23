@@ -482,3 +482,12 @@ You can use:
 
 116. I want to create a raw transaction (without signing it) and get its hash in hex format. The official TRON API normally returns a JSON for creating transactions. Does anybody here know how to do this?
 > https://developers.tron.network/docs/make-transaction-locally.
+
+117. How to send TRC20 using PHP?
+> https://github.com/iexbase/tron-api
+
+118. What is SUN?
+> 1 SUN = 0.000001 TRX
+
+119. How to Convert TRX to SUN using tronWeb?
+> https://developers.tron.network/reference/tosun
