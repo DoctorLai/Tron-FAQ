@@ -491,3 +491,12 @@ You can use:
 
 119. How to Convert TRX to SUN using tronWeb?
 > https://developers.tron.network/reference/tosun
+
+120. is it possible to hide transaction for any particular wallet?
+> No way, block chain is a fully transparent platform. all transactions are public.
+
+121. can we block any particular wallet, if someone steal crypto & is it possible to block those users so they can not able to access to those funds?
+> No. Blockchain is decentralised. As long as you have private keys, you have accessed to the funds in your wallet. However, there are several work arounds from centralized org.
+> - USDT contract do support account block if user report it is a scam.
+> - Exchanges usually also support account block if the money goes to the exchange.
+> - CEX can block because they internally use Wallet Mechanism
