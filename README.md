@@ -500,3 +500,7 @@ You can use:
 > - USDT contract do support account block if user report it is a scam.
 > - Exchanges usually also support account block if the money goes to the exchange.
 > - CEX can block because they internally use Wallet Mechanism
+
+122. curl -X GET  http://127.0.0.1:8090/wallet/getnowblock curl: (7) Failed connect to 127.0.0.1:8090; Connection refused
+> - check whether your node is still running.
+> - Check your server configuration and see whether 8090 is enabled.
