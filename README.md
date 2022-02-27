@@ -504,3 +504,6 @@ You can use:
 122. curl -X GET  http://127.0.0.1:8090/wallet/getnowblock curl: (7) Failed connect to 127.0.0.1:8090; Connection refused
 > - check whether your node is still running.
 > - Check your server configuration and see whether 8090 is enabled.
+
+123. How to deploy my full node?
+> https://developers.tron.network/docs/fullnode
