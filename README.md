@@ -507,3 +507,7 @@ You can use:
 
 123. How to deploy my full node?
 > https://developers.tron.network/docs/fullnode
+
+124. I by mistake deposited USDT on my tronlink wallet usdt contract address. Is there a way to retreive/recover the coins?
+> https://cs.tether.to/
+
