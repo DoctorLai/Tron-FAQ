@@ -513,3 +513,6 @@ You can use:
 
 125. How do I get the current USDT price？
 > You can use the free API: https://price.justyy.workers.dev/
+
+126. How to Query TRX balance?
+> https://developers.tron.network/docs/query-trx-balance
