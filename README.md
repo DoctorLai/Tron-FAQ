@@ -511,3 +511,5 @@ You can use:
 124. I by mistake deposited USDT on my tronlink wallet usdt contract address. Is there a way to retreive/recover the coins?
 > https://cs.tether.to/
 
+125. How do I get the current USDT price？
+> You can use the free API: https://price.justyy.workers.dev/
