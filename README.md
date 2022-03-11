@@ -516,3 +516,6 @@ You can use:
 
 126. How to Query TRX balance?
 > https://developers.tron.network/docs/query-trx-balance
+
+127. Does tronscan have api to get chain id or net id like ethereum?
+> TRON has no concept of chainid.
