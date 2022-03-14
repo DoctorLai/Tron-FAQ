@@ -455,7 +455,7 @@ keyPair.toBase58CheckAddress();
 > you don't need user authority to check balance. Just call the BalanceOf(address) funtion of the token contract, or use the Tronlink api for TRX balance
 
 108. How to check confirmation of the transaction?
-> https://developers.tron.network/docs/transaction-11#transaction-confirmation
+> https://developers.tron.network/docs/tron-protocol-transaction#transaction-confirmation
 
 109. How much fee for issuing a TRC10 token?
 > https://developers.tron.network/docs/trc10
