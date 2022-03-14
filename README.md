@@ -523,3 +523,6 @@ You can use:
 128. How long does it take for a successfully broadcasted transaction that did not appear on the blockchain to expire?
 > https://developers.tron.network/docs/tron-protocol-transaction#transaction-confirmation 
 > The mechanism of TRON's block validation is that a block is validated after this block is produced and 19 different SRs produce subsequent blocks based on this block.
+
+129. Can the wallet address be customized?
+> No
