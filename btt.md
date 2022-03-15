@@ -23,8 +23,12 @@ Choose "BTT Main Network" and Follow the "Create Account":
 # Transfering BTT on MetaMask
 When you want to send BTT, the MetaMask will ask you for confirmation on Ledger:
 
+![image](https://user-images.githubusercontent.com/1764434/158417028-a866fb14-fcb4-4402-a486-566e13d66660.png)
+
 ![image](https://user-images.githubusercontent.com/1764434/158416228-e6b688c0-2bfa-447c-a29c-1386e529bcbe.png)
 
 You will need to carefully check the details and confirm:
+
+![image](https://user-images.githubusercontent.com/1764434/158417758-4312f145-0a85-4c73-8314-e626a10fde1f.png)
 
 ![image](https://user-images.githubusercontent.com/1764434/158416331-81f669b2-46b2-493a-8bcd-a7175f01ca9b.png)
