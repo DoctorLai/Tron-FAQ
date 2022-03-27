@@ -526,3 +526,6 @@ You can use:
 
 129. Can the wallet address be customized?
 > No
+
+130. Is it possible to get a list all holder addresses from a defined trc20 token via API?
+> https://developers.tron.network/reference/get-trc20-token-holder-balances
