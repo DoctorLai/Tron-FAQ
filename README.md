@@ -529,3 +529,6 @@ You can use:
 
 130. Is it possible to get a list all holder addresses from a defined trc20 token via API?
 > https://developers.tron.network/reference/get-trc20-token-holder-balances
+
+131. How can I add tron network on coinbase wallet? 
+> https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support Please refer to the documentation, or contact Coinbase wallet customer service with your questions.
