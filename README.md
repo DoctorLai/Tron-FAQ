@@ -532,3 +532,6 @@ You can use:
 
 131. How can I add tron network on coinbase wallet? 
 > https://help.coinbase.com/en/wallet/getting-started/what-types-of-crypto-does-wallet-support Please refer to the documentation, or contact Coinbase wallet customer service with your questions.
+
+132. Which API of Trongrid queries the balance of USDT?
+> https://developers.tron.network/reference/get-account-info-by-address
