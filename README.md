@@ -535,3 +535,6 @@ You can use:
 
 132. Which API of Trongrid queries the balance of USDT?
 > https://developers.tron.network/reference/get-account-info-by-address
+
+133. Does Tron have a json rpc api like Ethereum?
+> https://developers.tron.network/reference/json-rpc-api-overview
