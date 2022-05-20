@@ -538,3 +538,13 @@ You can use:
 
 133. Does Tron have a json rpc api like Ethereum?
 > https://developers.tron.network/reference/json-rpc-api-overview
+
+134. How much bandwidth/energy for freezing the TRX?
+> https://tronstation.io/
+
+135. How to freeze trx for account that i created using tronweb?
+> https://developers.tron.network/reference/freezebalance
+
+136. Is there a way to upload a custom abi on Tronscan for a contract already deployed?
+> No
+
