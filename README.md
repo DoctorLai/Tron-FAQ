@@ -553,3 +553,8 @@ You can use:
 
 138. How to transfer or send TRX from one wallet to another wallet using TronWeb?
 > https://helloacm.com/javascript-function-to-send-trx-on-tron-blockchain-based-on-tronweb/
+
+139. What are the USDT Contract Addresses (TRC-20)?
+- Main Net: TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
+- Shasta TestNet: TG3XXyExBkPp9nzdajDZsozEu4BkaSJozs
+- Nile TestNet: TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf
