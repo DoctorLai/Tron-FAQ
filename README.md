@@ -548,7 +548,7 @@ You can use:
 136. Is there a way to upload a custom abi on Tronscan for a contract already deployed?
 > No
 
-137. How to transfer or send USDT form one wallet to another wallet using TronWeb?
+137. How to transfer or send USDT from one wallet to another wallet using TronWeb?
 ```javascript
 module.exports.sendUSDT = async function (network, fromAddress, toAddress, amount, privateKey, AppKey, CONTRACT) {
   let url = null;
