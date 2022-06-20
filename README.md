@@ -554,8 +554,10 @@ module.exports.sendUSDT = async function (network, fromAddress, toAddress, amoun
   let url = null;
   if (network === "shasta") {
     url = "https://api.shasta.trongrid.io";
-  } else {
+  } else if (network === "nile") {
     url = "https://nile.trongrid.io";
+  } else {
+    url = "https://api.trongrid.io";
   }
   const tronWeb = new TronWeb({
     fullHost: url,
