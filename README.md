@@ -551,5 +551,5 @@ You can use:
 137. How to transfer or send USDT from one wallet to another wallet using TronWeb?
 > https://helloacm.com/how-to-send-transfer-usdt-on-tron-blockchain-using-tronweb/
 
-138. How to transfer or send USDT from one wallet to another wallet using TronWeb?
+138. How to transfer or send TRX from one wallet to another wallet using TronWeb?
 > https://helloacm.com/javascript-function-to-send-trx-on-tron-blockchain-based-on-tronweb/
