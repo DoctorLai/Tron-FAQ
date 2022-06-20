@@ -549,38 +549,7 @@ You can use:
 > No
 
 137. How to transfer or send USDT from one wallet to another wallet using TronWeb?
-```javascript
-module.exports.sendUSDT = async function (network, fromAddress, toAddress, amount, privateKey, AppKey, CONTRACT) {
-  let url = null;
-  if (network === "shasta") {
-    url = "https://api.shasta.trongrid.io";
-  } else if (network === "nile") {
-    url = "https://nile.trongrid.io";
-  } else {
-    url = "https://api.trongrid.io";
-  }
-  const tronWeb = new TronWeb({
-    fullHost: url,
-    headers: { "TRON-PRO-API-KEY": AppKey },
-    privateKey: privateKey,
-  });
-  const options = {
-    feeLimit: 10000000,
-    callValue: 0
-  };
-  const tx = await tronWeb.transactionBuilder.triggerSmartContract(
-    CONTRACT, 'transfer(address,uint256)', options,
-    [{
-      type: 'address',
-      value: toAddress
-    }, {
-      type: 'uint256',
-      value: amount * 1000000
-    }],
-    tronWeb.address.toHex(fromAddress)
-  );
-  const signedTx = await tronWeb.trx.sign(tx.transaction);
-  const broadcastTx = await tronWeb.trx.sendRawTransaction(signedTx);
-  return broadcastTx;
-}
-```
+> https://helloacm.com/how-to-send-transfer-usdt-on-tron-blockchain-using-tronweb/
+
+138. How to transfer or send USDT from one wallet to another wallet using TronWeb?
+> https://helloacm.com/javascript-function-to-send-trx-on-tron-blockchain-based-on-tronweb/
