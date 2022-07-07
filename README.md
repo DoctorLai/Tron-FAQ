@@ -558,3 +558,8 @@ You can use:
 - Main Net: TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
 - Shasta TestNet: TG3XXyExBkPp9nzdajDZsozEu4BkaSJozs
 - Nile TestNet: TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf
+
+140. How can I validate a Tron Wallet Address  using Tronweb?
+```js
+TronWeb.isAddress
+```
