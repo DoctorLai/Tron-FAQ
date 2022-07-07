@@ -560,6 +560,4 @@ You can use:
 - Nile TestNet: TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf
 
 140. How can I validate a Tron Wallet Address  using Tronweb?
-```js
-TronWeb.isAddress
-```
+> You can use `TronWeb.isAddress` method to validate an address.
