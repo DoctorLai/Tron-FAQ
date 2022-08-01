@@ -561,3 +561,6 @@ You can use:
 
 140. How can I validate a Tron Wallet Address  using Tronweb?
 > You can use `TronWeb.isAddress` method to validate an address.
+
+141. What is the difference between Energy and Bandwidth in Tron?
+> https://tronscanorg.zendesk.com/hc/en-us/articles/360041445672-What-are-Bandwidth-and-Energy
