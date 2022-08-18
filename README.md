@@ -564,3 +564,6 @@ You can use:
 
 141. What is the difference between Energy and Bandwidth in Tron?
 > https://tronscanorg.zendesk.com/hc/en-us/articles/360041445672-What-are-Bandwidth-and-Energy
+
+142. Is there a beginner's guide to deploy a smart contract on tron?
+> https://developers.tron.network/docs/smart-contracts-introduction
