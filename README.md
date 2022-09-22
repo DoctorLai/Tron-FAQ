@@ -567,3 +567,6 @@ You can use:
 
 142. Is there a beginner's guide to deploy a smart contract on tron?
 > https://developers.tron.network/docs/smart-contracts-introduction
+
+143. How to Verify a Signature of a Signed Hex Message?
+> https://developers.tron.network/reference/verifymessage
