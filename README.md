@@ -570,3 +570,6 @@ You can use:
 
 143. How to Verify a Signature of a Signed Hex Message?
 > https://developers.tron.network/reference/verifymessage
+
+144. How to Convert Base58 to Hex Tron TRC20?
+> https://tronscan.io/#/tools/tron-convert-tool
