@@ -573,3 +573,6 @@ You can use:
 
 144. How to Convert Base58 to Hex Tron TRC20?
 > https://tronscan.io/#/tools/tron-convert-tool
+
+145. What is the "visible" parameter? POST /wallet/createtransaction
+> It is the address format, visible true for base58 and false for hex format.
