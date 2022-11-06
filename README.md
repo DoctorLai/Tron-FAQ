@@ -576,3 +576,6 @@ You can use:
 
 145. What is the "visible" parameter? POST /wallet/createtransaction
 > It is the address format, visible true for base58 and false for hex format.
+
+146. How much storage space do I have to prepare to run a node?
+> https://tronprotocol.github.io/documentation-en/architecture/network/
