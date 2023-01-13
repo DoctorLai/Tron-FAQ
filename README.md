@@ -579,3 +579,17 @@ You can use:
 
 146. How much storage space do I have to prepare to run a node?
 > https://tronprotocol.github.io/documentation-en/architecture/network/
+
+147. If I generate a HD address this way:
+
+```js
+const node = ethers.utils.HDNode.fromMnemonic(process.env.MNEMONIC)
+const dp = `m/44'/195'/0'/0'`;
+const i = 1;
+const wallet = node.derivePath(`${dp}/${i}`)
+console.log(wallet.address)
+it'll start with 0x --> "0xfdsfds.........43
+```
+
+How to convert it into a valid Tron address now? The one that starts with "41" or "T".
+> https://developers.tron.network/reference/frommnemonic
