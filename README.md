@@ -591,8 +591,8 @@ console.log(wallet.address)
 it'll start with 0x --> "0xfdsfds.........43
 ```
 
-How to convert it into a valid Tron address now? The one that starts with "41" or "T".
+148. How to convert it into a valid Tron address now? The one that starts with "41" or "T".
 > https://developers.tron.network/reference/frommnemonic
 
-Is there any limitation on calling tron public node?
+149. Is there any limitation on calling tron public node?
 > https://developers.tron.network/reference/rate-limits#what-should-i-do-if-im-rate-limited
