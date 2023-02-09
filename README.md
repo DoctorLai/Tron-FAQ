@@ -598,6 +598,6 @@ it'll start with 0x --> "0xfdsfds.........43
 > https://developers.tron.network/reference/rate-limits#what-should-i-do-if-im-rate-limited
 
 150. I am trying to sent all trx balance to another account using tronweb. First I get the current balance and then I pass this value to tronWeb.trx.sendTransaction. The problem is that I receive "insufficient balance"
-> it can happen for 2 things:
+It can happen for 2 things:
 - you don't have enough bandwidth and the system is trying to burn some trx but it can't  because you are trying to send all.
 - the account balance api call is cached the balance and it's not giving you the real number you have.
