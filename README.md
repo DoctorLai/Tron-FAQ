@@ -601,3 +601,12 @@ it'll start with 0x --> "0xfdsfds.........43
 It can happen for 2 things:
 - you don't have enough bandwidth and the system is trying to burn some trx but it can't  because you are trying to send all.
 - the account balance api call is cached the balance and it's not giving you the real number you have.
+
+151. How do I find the increase factor and max factor of a contract?
+> Call /wallet/getchainparameters to get the values of threshold, increase_factor, and max_factor on the Nile testnet.  check this document: https://coredevs.medium.com/dynamic-energy-model-deployed-and-opened-on-nile-testnet-59b81cb748f5
+
+152. Could the 'TRANSACTION_EXPIRATION_ERROR' error be caused by not being synchronized? This is an error that occurs when using 'sendcoin' in wallet-cli.
+> The error TRANSACTION_EXPIRATION_ERROR is caused by the expiration of the transaction. Currently, the transaction validity period created by the node is 1 minute, and the transaction needs to be broadcast within 1 minute. If it expires, the transaction needs to be recreated
+
+153. I want to create an account and transfer tokens after setting up a full node, but block synchronization takes too long. I wonder if it's normal.
+> You can use the latest backup database and the synchronization time will be greatly reduced:https://developers.tron.network/docs/main-net-database-snapshots
