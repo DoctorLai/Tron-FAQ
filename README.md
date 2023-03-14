@@ -610,3 +610,10 @@ It can happen for 2 things:
 
 153. I want to create an account and transfer tokens after setting up a full node, but block synchronization takes too long. I wonder if it's normal.
 > You can use the latest backup database and the synchronization time will be greatly reduced:https://developers.tron.network/docs/main-net-database-snapshots
+
+154. Whats used by tronlink app for calculation of transaction fee?
+> Transaction byte size is related to the fee. If you want to estimate the fee before sending the transaction, use this API: 
+> https://developers.tron.network/reference/estimateenergy
+
+155. How to calculate or estimate fees before signing a transaction?
+> https://stackoverflow.com/questions/67172564/how-to-estimate-trc20-token-transfer-gas-fee/73222761#73222761
