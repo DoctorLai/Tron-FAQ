@@ -617,3 +617,31 @@ It can happen for 2 things:
 
 155. How to calculate or estimate fees before signing a transaction?
 > https://stackoverflow.com/questions/67172564/how-to-estimate-trc20-token-transfer-gas-fee/73222761#73222761
+
+156. Is there some high level library for Tron in Python?
+Yes, there is a high-level library for Tron in Python called "tronapi". It provides an easy-to-use interface for interacting with the Tron network, allowing you to perform various operations such as making transfers, getting wallet information, and more. It also includes support for multiple wallets and supports both HTTP and HTTPS connections. You can install tronapi using the pip package manager: 
+
+```bash
+pip install tronapi
+```
+
+Once installed, you can create a new instance of Tron using:
+
+```python
+from tronapi import Tron
+tron = Tron()
+```
+
+From there, you can use various methods of the Tron object to perform different operations on the Tron network. For example, to get the balance of a particular wallet, you can use the following:
+
+```python
+balance = tron.trx.get_balance('wallet_address')
+```
+
+Similarly, to send a transfer, you can use the following:
+
+```python
+result = tron.trx.send_transaction('recipient_address', 'amount', 'sender_private_key')
+```
+
+There are many other methods available in tronapi that you can use to interact with the Tron network. You can check out the official documentation for more information: https://tronapi.github.io/py-tronapi/latest/
