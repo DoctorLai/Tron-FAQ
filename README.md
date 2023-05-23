@@ -645,3 +645,6 @@ result = tron.trx.send_transaction('recipient_address', 'amount', 'sender_privat
 ```
 
 There are many other methods available in tronapi that you can use to interact with the Tron network. You can check out the official documentation for more information: https://tronapi.github.io/py-tronapi/latest/
+
+157. How to Activate a TRON Wallet Address?
+> https://helloacm.com/how-to-activate-a-tron-trx-blockchain-wallet-address/
