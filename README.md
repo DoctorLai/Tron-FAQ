@@ -648,3 +648,11 @@ There are many other methods available in tronapi that you can use to interact w
 
 157. How to Activate a TRON Wallet Address?
 > https://helloacm.com/how-to-activate-a-tron-trx-blockchain-wallet-address/
+
+158. Why the Tron Node won't download the blocks?
+There could be several reasons why your Tron node is not downloading blocks. Here are a few things you can check:
+1. Check your internet connection: Make sure that your internet connection is stable and strong enough to download blocks. Slow internet connection can cause the node to take longer to download blocks.
+2. Check your firewall settings: If you have a firewall enabled, make sure that it is not blocking the Tron node from downloading blocks.
+3. Check your Tron node configuration: Make sure that your Tron node is configured correctly. Check that the IP address and port number are correct, and that you have specified the correct network type (mainnet or testnet).
+4. Check the Tron network status: The Tron network may be experiencing issues or undergoing maintenance, which can cause delays in block downloads. You can check the Tron network status on the official Tron website or social media channels.
+If you have checked all of these things and your Tron node is still not downloading blocks, you may want to reach out to the Tron Chinese community or support team for further assistance.
