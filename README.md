@@ -665,3 +665,6 @@ If you have checked all of these things and your Tron node is still not download
 
 161. How I could check that my node is synchronized and fully functional?
 > See: https://helloacm.com/tron-blockchain-how-to-check-if-a-node-is-synchronized-and-fully-functional/
+
+162. How to Check the Number of Peers the Tron Node is Connected to?
+> See: https://helloacm.com/tron-blockchain-how-to-check-the-number-of-peers-the-tron-node-is-connected-to/
