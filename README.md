@@ -664,11 +664,4 @@ If you have checked all of these things and your Tron node is still not download
 > Yes, Trigger smart contract method function balanceOf.
 
 161. How I could check that my node is synchronized and fully functional?
-To ensure that your Tron node is synchronized and fully functional, you can follow these steps:
-1. Check the Node Status: Use the Tron command line interface (CLI) or API to check the status of your node. The CLI command to check the node status is tron-cli info. This command will provide you with information about the block height, number of peers, and synchronization status. Make sure the block height matches the latest block on the Tron network.
-2. Monitor the Block Height: Keep an eye on the block height of your node. You can compare it with the latest block height available on the Tron network explorer or official Tron website. If your node's block height matches the network's block height, it indicates that your node is synchronized.
-3. Check for Peer Connections: A fully synchronized node should be connected to a sufficient number of peers. Use the CLI command tron-cli peer or check the peer information through the API to verify the number of peers your node is connected to. Having multiple peers ensures that your node is actively participating in the Tron network.
-4. Validate Transactions and Blocks: You can test the functionality of your node by verifying the transactions and blocks it receives and broadcasts. Use the CLI or API to retrieve recent transactions and blocks, and compare them with the information available on the Tron network explorer or other trusted sources. If your node is successfully processing and propagating transactions and blocks, it indicates its full functionality.
-5. Monitor Resource Usage: Monitor the resource usage of your node, such as CPU, memory, and disk space. Ensure that your node has sufficient resources to handle the Tron network's demands. Excessive resource usage or frequent crashes may indicate issues with your node's functionality.
-6. Stay Updated: Keep your Tron node software up to date with the latest releases and patches. Regularly check for updates from the Tron project's official sources and apply them to ensure your node stays synchronized and functional.
-By following these steps and regularly monitoring your Tron node, you can ensure that it remains synchronized and fully functional within the Tron network.
+> See: https://helloacm.com/tron-blockchain-how-to-check-if-a-node-is-synchronized-and-fully-functional/
