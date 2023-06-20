@@ -668,3 +668,6 @@ If you have checked all of these things and your Tron node is still not download
 
 162. How to Check the Number of Peers the Tron Node is Connected to?
 > See: https://helloacm.com/tron-blockchain-how-to-check-the-number-of-peers-the-tron-node-is-connected-to/
+
+163. How to Send the USDT (TRC-20) Transacton using Python tronpy?
+> See: https://helloacm.com/tron-blockchain-how-to-send-the-usdt-trc-20-transacton-using-python-tronpy/
