@@ -671,3 +671,6 @@ If you have checked all of these things and your Tron node is still not download
 
 163. How to Send the USDT (TRC-20) Transacton using Python tronpy?
 > See: https://helloacm.com/tron-blockchain-how-to-send-the-usdt-trc-20-transacton-using-python-tronpy/
+
+164. How many trons require to create TRC20 token?
+> Depends on the token contract size and its constructor complexity, i. e. how many bandwidth and energy it will consume on deploy, also depends on how you are planning to pay for the resources: burn TRX or stake/delegate (rent on some services). You can first try to deploy it on a testnet (shasta for inst) to check how many resources it consumes.
