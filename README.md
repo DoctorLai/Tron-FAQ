@@ -674,3 +674,6 @@ If you have checked all of these things and your Tron node is still not download
 
 164. How many trons require to create TRC20 token?
 > Depends on the token contract size and its constructor complexity, i. e. how many bandwidth and energy it will consume on deploy, also depends on how you are planning to pay for the resources: burn TRX or stake/delegate (rent on some services). You can first try to deploy it on a testnet (shasta for inst) to check how many resources it consumes.
+
+165. What is the identifier of the Tron network in the blockchain's ecosystem aka The Tron Main Network Chain ID?
+> Tron Main network Chainid: 0x2b6653dc
