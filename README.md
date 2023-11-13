@@ -677,3 +677,6 @@ If you have checked all of these things and your Tron node is still not download
 
 165. What is the identifier of the Tron network in the blockchain's ecosystem aka The Tron Main Network Chain ID?
 > Tron Main network Chainid: 0x2b6653dc
+
+166. Can I generate a Tron Address of my own?
+> A 256bit randomnumber is a privatekey, if you have this number in mind, you already had a tron account. to activate it, you need to find out it's address and send 1.1trx into it. to find out the address, calcualte it's public key based on ecdsasecp256k1 algoritm. take last 20bytes encode into hex, prefix with 41. and base58 it, that will be your tron address.
