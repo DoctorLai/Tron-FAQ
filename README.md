@@ -680,3 +680,6 @@ If you have checked all of these things and your Tron node is still not download
 
 166. Can I generate a Tron Address of my own?
 > A 256bit randomnumber is a privatekey, if you have this number in mind, you already had a tron account. to activate it, you need to find out it's address and send 1.1trx into it. to find out the address, calcualte it's public key based on ecdsasecp256k1 algoritm. take last 20bytes encode into hex, prefix with 41. and base58 it, that will be your tron address.
+
+167. How to Resolve when Node Suddenly Stops?
+> https://developers.tron.network/docs/faq#8-how-to-solve-the-problem-of-slow-node-block-synchronization-or-stop-synchronization
