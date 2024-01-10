@@ -683,3 +683,6 @@ If you have checked all of these things and your Tron node is still not download
 
 167. How to Resolve when Node Suddenly Stops?
 > https://developers.tron.network/docs/faq#8-how-to-solve-the-problem-of-slow-node-block-synchronization-or-stop-synchronization
+
+168. How to Create and Deploy TRC20 Tokens on the TRON Network?
+> https://www.linkedin.com/pulse/buidl-101-trc20-tokens-h-e-justin-sun-tqe7c/
