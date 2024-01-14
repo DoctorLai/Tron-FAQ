@@ -686,3 +686,6 @@ If you have checked all of these things and your Tron node is still not download
 
 168. How to Create and Deploy TRC20 Tokens on the TRON Network?
 > https://www.linkedin.com/pulse/buidl-101-trc20-tokens-h-e-justin-sun-tqe7c/
+
+169. How can I create a wallet on the trc20 network via api?
+> You may check this post: https://helloacm.com/how-to-generate-an-account-on-tron-blockchain-using-python-sdk/
