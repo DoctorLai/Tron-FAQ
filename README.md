@@ -689,3 +689,9 @@ If you have checked all of these things and your Tron node is still not download
 
 169. How can I create a wallet on the trc20 network via api?
 > You may check this post: https://helloacm.com/how-to-generate-an-account-on-tron-blockchain-using-python-sdk/
+
+170. How long will the generated wallet address live if it is not activated by sending 1 trx to it?
+> A generated wallet address on the Tron blockchain does not have a set expiration date and will remain valid indefinitely until activated. This means even if you don't send any TRX to it, the address will still exist and be usable in the future.
+
+171. Will someone else be able to generate the same wallet address before activation?
+> It is extremely unlikely that someone else will generate the same wallet address as yours. Tron uses a strong cryptographic process to generate these addresses, making the chances of creating a duplicate practically negligible.
