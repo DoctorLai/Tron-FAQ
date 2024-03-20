@@ -695,3 +695,6 @@ If you have checked all of these things and your Tron node is still not download
 
 171. Will someone else be able to generate the same wallet address before activation?
 > It is extremely unlikely that someone else will generate the same wallet address as yours. Tron uses a strong cryptographic process to generate these addresses, making the chances of creating a duplicate practically negligible.
+
+172. How to estimate the fee before transactions (Sending TRX or USDT, Triggering Smart Contract)?
+> https://developers.tron.network/reference/estimateenergy
