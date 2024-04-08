@@ -698,3 +698,7 @@ If you have checked all of these things and your Tron node is still not download
 
 172. How to estimate the fee before transactions (Sending TRX or USDT, Triggering Smart Contract)?
 > https://developers.tron.network/reference/estimateenergy
+
+173. How to estimate or compute the energy obtained?
+> The formula is 
+> Energy obtained = the TRX frozen for gaining Energy / the total TRX frozen for gaining Energy in the entire network * 100,000,000,000
