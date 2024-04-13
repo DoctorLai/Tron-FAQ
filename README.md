@@ -702,3 +702,6 @@ If you have checked all of these things and your Tron node is still not download
 173. How to estimate or compute the energy obtained?
 > The formula is 
 > Energy obtained = the TRX frozen for gaining Energy / the total TRX frozen for gaining Energy in the entire network * 100,000,000,000
+
+174. How much Energey/Bandwidth by Staking or Burning TRX? The Resource Calculator: Stake or Burn TRX for Energey/Bandwidth
+> https://tronscan.org/#/tools/tronstation
